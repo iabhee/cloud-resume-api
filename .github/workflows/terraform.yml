@@ -47,6 +47,9 @@ jobs:
       run: terraform init
       continue-on-error: true
 
+    - name: Mask Azure Subscription ID
+      run: echo "::add-mask::${{ secrets.AZURE_SUBSCRIPTION_ID }}"      
+      
     - name: Terraform Validate
       id: validate
       run: terraform validate -no-color
