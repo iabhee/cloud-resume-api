@@ -2,7 +2,7 @@ const { CosmosClient } = require("@azure/cosmos");
 const { render } = require("jsonresume-theme-elegant"); // Import the theme
 
 module.exports = async function (context, req) {
-    const endpoint = process.env.COSMOS_DB_ENDPOINT;  //COSMOS DB endpoint url
+    const endpoint = process.env.COSMOS_DB_ENDPOINT;  //COSMOS DB ENDPOINT url
     const key = process.env.COSMOS_DB_KEY; //COSMOS DB primary key
     const databaseName = process.env.COSMOS_DB_DATABASE; //COSMOS DB database name
     const containerName = process.env.COSMOS_DB_CONTAINER; //COSMOS DB container name
