@@ -35,3 +35,7 @@ To get started with this project, follow the instructions below:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+
+![Infrastructure](https://github.com/iabhee/cloud-resume-api/actions/workflows/terraform.yml/badge.svg)
+![Code](https://github.com/iabhee/cloud-resume-api/actions/workflows/build-deploy.yml/badge.svg)
