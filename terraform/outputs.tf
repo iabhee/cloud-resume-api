@@ -1,4 +1,4 @@
-# # Output from Azure Functions module
+# # Outputs from Azure Functions module
 output "function_app_name" {
   value       = module.azure_functions.function_app_name
   description = "Name of the Azure Function App"
