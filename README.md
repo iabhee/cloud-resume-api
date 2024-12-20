@@ -1,5 +1,8 @@
 # Cloud Resume API
 
+![Infrastructure](https://github.com/iabhee/cloud-resume-api/actions/workflows/terraform.yml/badge.svg)
+![Code](https://github.com/iabhee/cloud-resume-api/actions/workflows/build-deploy.yml/badge.svg)
+
 ## Overview
 
 This project is a cloud-based resume application that allows users to showcase their resume using a serverless API hosted on Azure. The back-end is powered by an nodeJS API that provides data to render the resume dynamically. This project demonstrates cloud architecture best practices and integrates multiple cloud services.
@@ -37,5 +40,4 @@ To get started with this project, follow the instructions below:
    git clone <repository-url>
 
 
-![Infrastructure](https://github.com/iabhee/cloud-resume-api/actions/workflows/terraform.yml/badge.svg)
-![Code](https://github.com/iabhee/cloud-resume-api/actions/workflows/build-deploy.yml/badge.svg)
+
